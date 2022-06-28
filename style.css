@@ -3,6 +3,10 @@ body {
    
 }
 
+.input {
+   margin-top: 3rem;
+}
+
  label {
     display: block;
     cursor: pointer;
@@ -34,6 +38,12 @@ body {
    width: 30%;
    height: 30vh;
    background-color: #41b4a4;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-size: 3rem;
+   margin-top: 3rem;
  }
 
  input[type="checkbox"]:checked+span:before {
