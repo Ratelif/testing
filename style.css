@@ -30,6 +30,12 @@ body {
     margin-right: 0.5em;
  }
 
+ .box {
+   width: 30%;
+   height: 30vh;
+   background-color: #41b4a4;
+ }
+
  input[type="checkbox"]:checked+span:before {
     content: '\00f046';
  }
