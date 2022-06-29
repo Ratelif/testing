@@ -3,6 +3,10 @@ body {
    
 }
 
+* {
+   box-sizing: border-box;
+}
+
 .input {
    margin-top: 3rem;
 }
@@ -66,6 +70,7 @@ body {
 .box:hover {
    cursor: pointer;
    font-style: italic;
+   border-bottom  : 2px solid white;
 }
 
 .text {
