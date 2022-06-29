@@ -1,6 +1,5 @@
 body {
    background-color: #c38d9e;
-   
 }
 
 .input {
@@ -66,4 +65,13 @@ body {
 .box:hover {
    cursor: pointer;
    font-style: italic;
+}
+
+.text {
+   margin: 3rem auto;
+   width: 60%;
+   color: white;
+   font-size: 1.8rem;
+   text-align:justify;
+   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
