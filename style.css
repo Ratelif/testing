@@ -1,9 +1,6 @@
 body {
    background-color: #c38d9e;
-}
-
-* {
-   box-sizing: border-box;
+   
 }
 
 .input {
@@ -26,11 +23,6 @@ body {
  input[type="checkbox"]+span {
     font: 16pt sans-serif;
     color: white;
- }
-
- input[type="checkbox"]+span:hover {
-   font-style: italic;
-   text-decoration: underline;
  }
 
  input[type="checkbox"]+span:before {
@@ -67,21 +59,19 @@ body {
    justify-content: center;
    color: white;
    font-size: 3rem;
-   margin: 3rem auto;
+   margin-top: 3rem;
    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .box:hover {
    cursor: pointer;
    font-style: italic;
-   border-bottom: 2px solid white;;
 }
 
 .text {
-   margin: 3rem auto;
-   width: 60%;
+   margin-top: 3rem;
+   width: 100%;
    color: white;
-   font-size: 1.8rem;
-   text-align:justify;
-   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+   font-size: 2rem;
+   text-align: center;
 }
